@@ -23,7 +23,7 @@ sudo apt-get install -y build-essential autoconf autopoint libtool gcc-multilib 
 sudo apt-get clean
 
 四、获取主源代码
-git clone -b 1806 https://github.com/ikghx/openwrt-life.git
+git clone -b 1907 https://github.com/ikghx/openwrt-life.git
 
 五、进入主源代码目录，更新并安装软件库
 ./scripts/feeds update -a
