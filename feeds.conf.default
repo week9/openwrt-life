@@ -1,0 +1,4 @@
+src-git packages https://github.com/ikghx/openwrt-life-packages.git;1907
+src-git luci https://github.com/ikghx/openwrt-life-luci.git;1907
+src-git routing https://github.com/ikghx/openwrt-life-routing.git;1907
+#src-git telephony https://git.openwrt.org/feed/telephony.git;openwrt-19.07
