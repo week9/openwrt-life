@@ -12,8 +12,11 @@ config system
 
 config timeserver 'ntp'
 	option enabled '1'
-	list server 'ntp1.aliyun.com'
-	list server 'ntp2.aliyun.com'
+	list server 'ntp.ntsc.ac.cn'
+	list server 'cn.ntp.org.cn'
+	list server 'ntp.aliyun.com'
+	list server 'edu.ntp.org.cn'
 	list server 'time.windows.com'
 	list server 'time.nist.gov'
+	list server 'time.apple.com'
 
