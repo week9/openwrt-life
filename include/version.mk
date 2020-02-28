@@ -26,13 +26,13 @@ PKG_CONFIG_DEPENDS += \
 sanitize = $(call tolower,$(subst _,-,$(subst $(space),-,$(1))))
 
 VERSION_NUMBER:=$(call qstrip,$(CONFIG_VERSION_NUMBER))
-VERSION_NUMBER:=$(if $(VERSION_NUMBER),$(VERSION_NUMBER),Life-1.2)
+VERSION_NUMBER:=$(if $(VERSION_NUMBER),$(VERSION_NUMBER),Life-1.3)
 
 VERSION_CODE:=$(call qstrip,$(CONFIG_VERSION_CODE))
-VERSION_CODE:=$(if $(VERSION_CODE),$(VERSION_CODE),2020-02-25)
+VERSION_CODE:=$(if $(VERSION_CODE),$(VERSION_CODE),2020-02-28)
 
 VERSION_REPO:=$(call qstrip,$(CONFIG_VERSION_REPO))
-VERSION_REPO:=$(if $(VERSION_REPO),$(VERSION_REPO),https://openwrt.ikghx.com/life1.2)
+VERSION_REPO:=$(if $(VERSION_REPO),$(VERSION_REPO),https://openwrt.ikghx.com/life1.3)
 
 VERSION_DIST:=$(call qstrip,$(CONFIG_VERSION_DIST))
 VERSION_DIST:=$(if $(VERSION_DIST),$(VERSION_DIST),OpenWrt)
