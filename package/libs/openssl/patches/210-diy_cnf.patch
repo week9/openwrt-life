@@ -65,23 +65,23 @@
 +      # Only exception is the WebAdmin certificate, which can be signed by a Public ICA authority for a FQDN.
 +        # For chain of trust to be maintained, CA & ICA must be installed on devices accessing the WebAdmin/User Portal.
 +
-+openssl_conf=openssl_conf
++#openssl_conf=openssl_conf
 +
-+[openssl_conf]
-+engines=engines
++#[openssl_conf]
++#engines=engines
 +
-+[engines]
++#[engines]
 +# To enable an engine, install the package, and uncomment it here:
 +#devcrypto=devcrypto
 +#afalg=afalg
 +#padlock=padlock
 +
-+[afalg]
-+default_algorithms = ALL
++#[afalg]
++#default_algorithms = ALL
 +
-+[devcrypto]
++#[devcrypto]
 +# Leave this alone and configure algorithms with CIPERS/DIGESTS below
-+default_algorithms = ALL
++#default_algorithms = ALL
 +
 +# Configuration commands:
 +# Run 'openssl engine -t -c -vv -pre DUMP_INFO devcrypto' to see a
@@ -109,8 +109,8 @@
 +# for example, does this, and you may not be able to login.
 +#DIGESTS = NONE
 +
-+[padlock]
-+default_algorithms = ALL
++#[padlock]
++#default_algorithms = ALL
 +
 +#####################################################################
 +             ##----- Establish Build Variables -----##
