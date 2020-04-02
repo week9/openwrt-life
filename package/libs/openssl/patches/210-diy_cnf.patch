@@ -1,6 +1,6 @@
 --- a/apps/openssl.cnf	2019-09-10 21:13:07.000000000 +0800
 +++ b/apps/openssl.cnf	2020-02-12 20:36:55.228836000 +0800
-@@ -1,350 +1,1018 @@
+@@ -1,350 +1,1047 @@
  #
 -# OpenSSL example configuration file.
 -# This is mostly being used for generation of certificate requests.
